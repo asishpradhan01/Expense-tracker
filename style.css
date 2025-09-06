@@ -17,7 +17,7 @@ body {
 
 .container {
     width: 380px;
-    margin: 30px auto;
+    margin: auto;
 }
 
 .money-plus {
@@ -119,4 +119,10 @@ label {
 
 .btn:focus, .delete-btn:focus {
     outline: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 0 2rem;
+    }
 }
